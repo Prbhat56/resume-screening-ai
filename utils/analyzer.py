@@ -14,7 +14,7 @@ def setup_gemini():
         raise ValueError("GOOGLE_API_KEY not found in environment variables")
     
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-pro')  # This is the correct model name
+    return genai.GenerativeModel('gemini-1.5-flash')  
 
 def compare_with_job_description(resume_text, job_description, filename):
     """Compare resume with job description using Google Gemini"""
