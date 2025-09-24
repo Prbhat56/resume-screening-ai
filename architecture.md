@@ -1,5 +1,11 @@
 # AI Resume Screening Agent - Architecture
 
+## System Overview
+
+The AI Resume Screening Agent follows a structured pipeline to analyze and rank candidates:
+
+### Architecture Diagram
+
 ```mermaid
 graph TD
     A[User Interface<br>Streamlit Web App] --> B[File Upload<br>PDF/DOCX]
